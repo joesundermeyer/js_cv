@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+
+// style.scss
+@import '../node_modules/bulma/css/bulma.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+$font-stack:    Roboto, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  font-weight: 300;
+  color: $primary-color;
+  background-color: gainsboro;
+}
+
+//special formatting
+
+a:hover       {
+    color: orange;
+}
+
+.center {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  font-size: 1.25em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.h2-exp {
+    font-weight: 700;
+    font-size: 1.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.home_navlink {
+    color: whitesmoke;
+}
+
+.img2 {
+    border-radius: 50%
+}
+
+.p-spaced {
+    padding-bottom: 1em;
+}
+
+.right {
+  float: right;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.title {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 1.125;
+}
+
+ul {
+    list-style-type: square;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    line-height: 120%;
+}
+
+.w3-header {
+    color: white;
+    font-size: 2em;
+    padding: 0.25em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.w3-grey {
+    background-color: grey;
+}
+
+//contact form
+
+.input::placeholder, .textarea::placeholder, .select select::placeholder {
+    color: 
+    rgba(54, 54, 54, 1.0);
+}
+
+.is-orange {
+    background-color:  orange;
+}
+
+//skils
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+.container-3 {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.dae {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+//footer
+
+.footer {
+    background-color: #1D73A4;
+}

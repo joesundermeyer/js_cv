@@ -105,6 +105,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "joe-sundermeyer"
+    }
+  },
+  "defaultProject": "joe-sundermeyer",
+  "cli": {
+    "analytics": false
+  }
 }
