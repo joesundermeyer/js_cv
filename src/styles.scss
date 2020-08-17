@@ -22,7 +22,7 @@ a:hover       {
 
 .center {
   margin: auto;
-  width: 40%;
+  width: 60%;
   padding: 10px;
   font-size: 1.25em;
   background-color: white;
@@ -45,7 +45,7 @@ a:hover       {
 }
 
 .p-spaced {
-    padding-bottom: 1em;
+    padding-bottom: 2.5em;
 }
 
 .right {
@@ -105,13 +105,28 @@ ul {
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+}
+
+.skills-color {
+    color: #4CAF50;
+}
+
+.skills-copy {
+    color: #1D73A4;
+}
+
+.skills-cli {
+    color: orange;
+}
+
+.skills-css {
+    color: #808080;
 }
 
 .dae {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.copy {width: 95%; background-color: #1D73A4;} /* Blue */
+.cli {width: 75%; background-color: orange;} /* Red */
+.css {width: 85%; background-color: #808080;} /* Dark Grey */
 
 //footer
 
