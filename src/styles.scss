@@ -22,8 +22,8 @@ a:hover       {
 
 .center {
   margin: auto;
-  width: 60%;
-  padding: 10px;
+  width: 75%;
+  padding: 1em;
   font-size: 1.25em;
   background-color: white;
   border-radius: 0.5em;
@@ -31,7 +31,7 @@ a:hover       {
 
 .h2-exp {
     font-weight: 700;
-    font-size: 1.25em;
+    font-size: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
@@ -41,11 +41,18 @@ a:hover       {
 }
 
 .img2 {
-    border-radius: 50%
-}
+    border-radius: 50%;
+    max-width:25%;
+    height:auto;
+    margin-left: 60%
+ }
 
 .p-spaced {
     padding-bottom: 2.5em;
+}
+
+.p-spaced-2 {
+    padding-bottom: 1.5em;
 }
 
 .right {
@@ -77,13 +84,13 @@ ul {
 }
 
 .w3-grey {
-    background-color: grey;
+    background-color: #8DBCE6;
 }
 
 //contact form
 
 .input::placeholder, .textarea::placeholder, .select select::placeholder {
-    color: 
+    color:
     rgba(54, 54, 54, 1.0);
 }
 
@@ -102,34 +109,21 @@ ul {
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
+  text-align: left; /* Right-align text */
+  padding-top: 0.25em; /* Add top padding */
+  padding-bottom: 0.25em; /* Add bottom padding */
+  padding-left: 0.25em;
+  color: white;
+  font-weight: 700;
 }
 
-.skills-color {
-    color: #4CAF50;
-}
-
-.skills-copy {
-    color: #1D73A4;
-}
-
-.skills-cli {
-    color: orange;
-}
-
-.skills-css {
-    color: #808080;
-}
-
-.dae {width: 90%; background-color: #4CAF50;} /* Green */
-.copy {width: 95%; background-color: #1D73A4;} /* Blue */
+.dae {width: 90%; background-color: #1D73A4;} /* Green */
+.copy {width: 95%; background-color: #8DBCE6;} /* Blue */
 .cli {width: 75%; background-color: orange;} /* Red */
 .css {width: 85%; background-color: #808080;} /* Dark Grey */
 
 //footer
 
 .footer {
-    background-color: #1D73A4;
+    background-color: #8DBCE6;
 }

@@ -11,15 +11,16 @@ import { Component, OnInit } from '@angular/core';
       <h2 class="right"><a class="home_navlink" routerLink="skils">Skills</a></h2><br>
       <h2 class="right"><a class="home_navlink" routerLink="experience">Experience</a></h2><br>
       <h2 class="right"><a class="home_navlink" routerLink="about">About</a></h2><br>
-      
+
     </div>
     </div>
     </section>
   `,
   styles: [`
     .hero {
-      background-image: url('/assets/img/windows.jpg') !important;
-      background-position: center center;
+      background-image: url('/assets/img/building.jpg') !important;
+      background-repeat: no repeat;
+      background-size: 100%;
     }
   `]
 })

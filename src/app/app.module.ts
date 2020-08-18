@@ -7,11 +7,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkilsComponent } from './components/skils/skils.component';
 import { ExperienceComponent } from './components/experience/experience.component';
-
 
 @NgModule({
   declarations: [
@@ -19,7 +17,6 @@ import { ExperienceComponent } from './components/experience/experience.componen
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ContactComponent,
     AboutComponent,
     SkilsComponent,
     ExperienceComponent
@@ -27,9 +24,9 @@ import { ExperienceComponent } from './components/experience/experience.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
