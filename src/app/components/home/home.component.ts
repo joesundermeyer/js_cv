@@ -20,7 +20,7 @@ import { Component, OnInit } from '@angular/core';
     .hero {
       background-image: url('/assets/img/building.jpg') !important;
       background-repeat: no repeat;
-      background-size: 100%;
+      background-size: cover;
     }
   `]
 })
